@@ -1,0 +1,52 @@
+.logo-usla {
+    margin-left: 23px !important;
+    margin-right: 100px !important;
+}
+
+.nav-item-ulsa {
+    padding: 8px 0 3px 0 !important;
+    text-decoration: none;
+    color: #000;
+    margin-right: 68px;
+    cursor: pointer;
+}
+
+.nav-item-ulsa:hover {
+    color: #8b77f6 !important;
+    border-bottom: 2px solid #8b77f6 !important
+}
+
+.shadow-ulsa {
+    box-shadow: 0px 10px 15px #ebebeb;
+}
+
+.active-usla {
+    color: #8b77f6 !important;
+    border-bottom: 2px solid #8b77f6 !important
+}
+
+.swiper-ulsa {
+    width: 100%;
+    height: 700px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+    /* Chiều cao là 100% của viewport height */
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.z-index-1000 {
+    z-index: 1000;
+}
+
+.card-ulsa {
+    border-radius: 17px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
