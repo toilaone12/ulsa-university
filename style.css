@@ -184,12 +184,11 @@
 }
 
 .blog-news {
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 .card-news {
     border-radius: 14px;
-    height: 376px;
 }
 
 .card-news__body {
@@ -228,4 +227,138 @@
 
 .btn-loadmore-news:hover{
     background-color: #c6bdff;
+}
+
+.introduce-ulsa {
+    padding-top: 77px;
+    background-color: #f5f3ff;
+}
+
+.introduce-header {
+    margin-bottom: 18px;
+}
+
+.introduce-container {
+    max-width: 1270px;
+    margin: auto;
+    padding-bottom: 140px;
+}
+
+.introduce-separate {
+    border: 1px solid rgba(104, 77, 244, 1);
+    margin-bottom: 36px;
+}
+
+.introduce-title {
+    color: rgba(104, 77, 244, 1);
+    margin-bottom: 41px;
+}
+
+.introduce-content {
+    text-align: justify;
+    margin-bottom: 32px;
+    line-height: 1.4;
+}
+
+.introduce-button__loadmore {
+    background-color: rgba(104, 77, 244, 1);
+    border-radius: 17px;
+    padding: 14px 32px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.notification-container {
+    max-width: 1270px;
+    margin: auto;
+    padding-top: 54px;
+    padding-bottom: 85px;
+}
+
+.notification-separate {
+    margin: 18px 0 41px 0;
+    border: 1px solid rgba(104, 77, 244, 1);
+}
+
+.notification-even {
+    margin-bottom: 54px;
+}
+
+.notification-odd {
+    margin-right: 25px;
+}
+
+.notfication-list {
+    margin-left: 86px;
+}
+
+.notification-item {
+    color: rgba(104, 77, 244, 1);
+    text-align: justify;
+    line-height: 1.2;
+    margin-bottom: 45px;
+}
+
+.introduce-lecture-ulsa {
+    background-color: rgba(104, 77, 244, 1);
+}
+
+.introduce-lecture-ulsa__container {
+    max-width: 1270px;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 63px;
+}
+
+.introduce-lecture__header {
+    margin-bottom: 18px;
+}
+
+.introduce-lecture__separate {
+    border: 1px solid #fff;
+    margin-bottom: 54px;
+}
+
+.introduce-lecture__image {
+    width: 100% !important;
+    height: 242px !important;
+}
+
+.introduce-lecture__body {
+    margin-top: 27px;
+}
+
+.footer-ulsa {
+    margin-top: 225px;
+    border-top: 1px solid rgba(0, 0, 0, 0.47);
+}
+
+.footer-motto {
+    width: 387px;
+    margin-right: 81px;
+}
+
+.footer-container {
+    max-width: 1250px;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 76px;
+}
+
+.footer-motto__title {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.footer-contact {
+    margin-top: 72px;
+}
+
+.footer-contact__header {
+    color: rgba(104, 77, 244, 1);
+    margin-bottom: 36px;
+}
+
+.footer-contact__item-icon {
+    margin-right: 45px;
 }
