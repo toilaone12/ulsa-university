@@ -1,6 +1,6 @@
 .logo-usla {
     margin-left: 23px !important;
-    margin-right: 100px !important;
+    margin-right: 45px !important;
 }
 
 .nav-item-ulsa {
@@ -11,9 +11,66 @@
     cursor: pointer;
 }
 
+.nav-item::before {
+    content: "";
+    width: 74px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+}
+
+.nav-item:hover .nav-item__menu {
+    display: block;
+}
+
 .nav-item-ulsa:hover {
     color: #8b77f6 !important;
     border-bottom: 2px solid #8b77f6 !important
+}
+
+.nav-item__menu {
+    width: 200px;
+    top: 31px;
+    left: -14px;
+    border-radius: 8px;
+    display: none;
+    z-index: 1000;
+}
+
+.nav-item__menu li {
+    list-style: none;
+    padding: 8px 15px;
+}
+
+.nav-item__menu li:hover {
+    background-color: #8b77f6;
+}
+
+.nav-item__menu li:hover:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.nav-item__menu li:hover:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.nav-item__menu li:hover a {
+    color: #fff;
+}
+
+
+.nav-item__menu-item {
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+}
+
+.nav-item__menu-end {
+    padding-bottom: 13px;
 }
 
 .shadow-ulsa {
@@ -166,8 +223,7 @@
 }
 
 .news-image {
-    margin-left: 23px;
-    padding-right: 23px;
+    padding-left: 23px;
 }
 
 .content-news {
@@ -361,4 +417,93 @@
 
 .footer-contact__item-icon {
     margin-right: 45px;
+}
+
+.detail-container {
+    max-width: 1290px;
+    padding-top: 81px;
+    margin: auto;
+}
+
+.detail-left {
+    width: 300px;
+    margin-right: 36px;
+}
+
+.detail-option {
+    background-color: rgba(104, 77, 244, 0.59);
+    border-radius: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.28);
+    margin-bottom: 41px;
+}
+
+.detail-option__header {
+    padding: 22.5px 111.5px 14.5px 31.5px;
+}
+
+.detail-option__list li {
+    list-style: none;
+    padding: 13.5px 111.5px 18px 31.5px;
+}
+
+.detail-option__list li:hover {
+    background-color: #fff;
+}
+
+.detail-option__list li:hover:last-child {
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.detail-option__list li:hover a{
+    color: rgba(104, 77, 244, 0.59);
+}
+
+.detail-option__item {
+    text-decoration: none;
+    color: #fff;
+}
+
+.detail-hot-news {
+    border: 1px solid rgba(0, 99, 156, 1);
+    border-radius: 18px;
+}
+
+.detail-hot-news__header {
+    margin-top: 18px;
+    margin-bottom: 27px;
+    color: rgba(104, 77, 244, 1);
+}
+
+.detail-hot-news__card {
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 27px;
+}
+
+.detail-hot-news__image {
+    margin-right: 13px;
+}
+
+.detail-hot-news-title {
+    text-align: justify;
+}
+
+.detail-right-header {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.54), rgba(104, 77, 244, 0.66));
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 22px;
+    border-radius: 13px;
+    color: rgba(0, 0, 0, 1);
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+.detail-right-author {
+    color: #ccc;
+}
+
+.detail-right-content {
+    text-align: justify;
 }

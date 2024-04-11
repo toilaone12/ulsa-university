@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giao diện trường ULSA</title>
+    <link rel="icon" href="./favicon/favicon-32x32.png"
+        sizes="32x32">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Phần header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white pt-1 pb-0 position-relative z-index-1000">
+        <div class="container-fluid shadow-ulsa pb-3">
+            <a class="logo-usla" href="#"><img src="./image/logo.png" width="205" height="93" alt=""></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item position-relative">
+                        <a class="nav-item-ulsa fs-18 active-usla roboto-medium" aria-current="page" href="#">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-item-ulsa fs-18 roboto-medium" href="#">BMTC</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-item-ulsa fs-18 roboto-medium" href="#">Tin tức/Sự kiện</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-item-ulsa fs-18 roboto-medium" href="#">Đào tạo</a>
+                        <ul class="nav-item__menu ps-0 position-absolute bg-light">
+                            <li><a class="nav-item__menu-item fs-15" href="#">Hệ đại học</a></li>
+                            <li><a class="nav-item__menu-item fs-15" href="#">Hệ cao đẳng</a></li>
+                            <li><a class="nav-item__menu-item fs-15" href="#">Hệ sau đại học</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-item-ulsa fs-18 roboto-medium" href="#">NCKH</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-item-ulsa fs-18 roboto-medium" href="#">Sinh viên</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-item-ulsa fs-18 roboto-medium" href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Phần detail -->
+    <div class="detail-container">
+        <div class="d-flex">
+            <div class="d-block detail-left">
+                <div class="detail-option">
+                    <h4 class="fs-20 text-light text-uppercase roboto-bolder detail-option__header">Giới thiệu</h4>
+                    <ul class="detail-option__list ps-0 mb-0">
+                        <li><a href="" class="detail-option__item text-uppercase fs-18">Giới thiệu ULSA</a></li>
+                        <li><a href="" class="detail-option__item text-uppercase fs-18">Logo ULSA</a></li>
+                        <li><a href="" class="detail-option__item text-uppercase fs-18">Giới thiệu CNTT</a></li>
+                    </ul>
+                </div>
+                <div class="detail-hot-news">
+                    <h4 class="fs-20 text-uppercase roboto-bolder detail-hot-news__header text-center">Bài viết mới nhất</h4>
+                    <div class="detail-hot-news__card d-flex align-items-center">
+                        <img src="./image/image-news-1.png" width="99" height="99" alt="" class="img-fluid detail-hot-news__image">
+                        <div class="detail-hot-news__card-body">
+                            <p class="fs-14 roboto-medium detail-hot-news-title mb-1">Hội nghị viên chức và người lao động năm 2023</p>
+                            <div class="card-news__footer d-flex align-items-center justify-content-between">
+                                <span class="fs-11 roboto-regular">Quản trị viên</span>
+                                <span class="card-news__datetime fs-11 roboto-regular">05/04/2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail-hot-news__card d-flex align-items-center">
+                        <img src="./image/image-news-1.png" width="99" height="99" alt="" class="img-fluid detail-hot-news__image">
+                        <div class="detail-hot-news__card-body">
+                            <p class="fs-14 roboto-medium detail-hot-news-title mb-1">Hội nghị viên chức và người lao động năm 2023</p>
+                            <div class="card-news__footer d-flex align-items-center justify-content-between">
+                                <span class="fs-11 roboto-regular">Quản trị viên</span>
+                                <span class="card-news__datetime fs-11 roboto-regular">05/04/2024</span>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="detail-hot-news__card d-flex align-items-center">
+                        <img src="./image/image-news-1.png" width="99" height="99" alt="" class="img-fluid detail-hot-news__image">
+                        <div class="detail-hot-news__card-body">
+                            <p class="fs-14 roboto-medium detail-hot-news-title mb-1">Hội nghị viên chức và người lao động năm 2023</p>
+                            <div class="card-news__footer d-flex align-items-center justify-content-between">
+                                <span class="fs-11 roboto-regular">Quản trị viên</span>
+                                <span class="card-news__datetime fs-11 roboto-regular">05/04/2024</span>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="detail-hot-news__card d-flex align-items-center">
+                        <img src="./image/image-news-1.png" width="99" height="99" alt="" class="img-fluid detail-hot-news__image">
+                        <div class="detail-hot-news__card-body">
+                            <p class="fs-14 roboto-medium detail-hot-news-title mb-1">Hội nghị viên chức và người lao động năm 2023</p>
+                            <div class="card-news__footer d-flex align-items-center justify-content-between">
+                                <span class="fs-11 roboto-regular">Quản trị viên</span>
+                                <span class="card-news__datetime fs-11 roboto-regular">05/04/2024</span>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="detail-hot-news__card d-flex align-items-center">
+                        <img src="./image/image-news-1.png" width="99" height="99" alt="" class="img-fluid detail-hot-news__image">
+                        <div class="detail-hot-news__card-body">
+                            <p class="fs-14 roboto-medium detail-hot-news-title mb-1">Hội nghị viên chức và người lao động năm 2023</p>
+                            <div class="card-news__footer d-flex align-items-center justify-content-between">
+                                <span class="fs-11 roboto-regular">Quản trị viên</span>
+                                <span class="card-news__datetime fs-11 roboto-regular">05/04/2024</span>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+            <div class="detail-right w-75">
+                <h1 class="fs-21 roboto-medium detail-right-header text-light">Giới thiệu ULSA</h1>
+                <div class="detail-right-container">
+                    <h3 class="detail-right-title roboto-bolder">Trường Đại học Lao động – Xã hội</h3>
+                    <p class="detail-right-author fs-18 roboto-regular">Tác giả: Quản trị viên - Ngày 6/4/2024</p>
+                    <img src="./image/image-news-2.png" alt="" width="418" height="261" class="img-fluid detail-right-image d-block m-auto mb-3">
+                    <div class="detail-right-content text-dark roboto-medium">
+                        Tiền thân từ trường Trung học Lao động Tiền lương thuộc Bộ Lao động thành lập năm 1961 có nhiệm vụ đào tạo cán bộ lao động tiền lương cho toàn miền bắc.
+                        Năm 1991, trường hợp nhất với trường Quản lý Cán bộ Thương binh Xã hội lấy tên là Trường Cán bộ Lao động – Xã hội.
+                        Tháng 1/1997 trường được nâng cấp lên thành trường Cao đẳng Lao động Xã hội.
+                        Tháng 1/ 2005 trường trở thành trường Đại học Lao động – Xã hội.
+                        Ngày 01/3/2005 Bộ trưởng Bộ Lao động – Thương binh và Xã hội ký Quyết định số 155/QĐ-LĐTBXH quy định chức năng, nhiệm vụ và cơ cấu tổ chức của trường Đại học Lao động – Xã hội. Đến năm 2007, Trường có bước phát triển mới: sát nhập trường Kỹ nghệ I thuộc Tổng cục Dạy nghề thành Cơ sở Sơn Tây và trường Trung học Lao động – Xã hội Tp. Hồ Chí Minh thành Cơ sở 2 thuộc trường. Vì vậy, Ngày 24/4/2007 Bộ trưởng Bộ Lao động – Thương binh & Xã hội ra Quyết định số 538/QĐ-LĐTBXH quy định chức năng, nhiệm vụ và cơ cấu tổ chức của trường Đại học Lao động – Xã hội.
+                        Trường Đại học Lao động - Xã hội chịu sự lãnh đạo và quản lý trực tiếp của Bộ Lao động - Thương binh và Xã hội; chịu sự quản lý nhà nước về giáo dục của Bộ Giáo dục - Đào tạo; chịu sự quản lý hành chính theo lãnh thổ của Uỷ ban nhân dân Thành phố Hà Nội.
+                        Điều hành hoạt động của Trường Đại học Lao động - Xã hội là Hiệu trưởng; giúp việc cho Hiệu trưởng có các Phó hiệu trưởng. Hiệu trưởng và Phó hiệu trưởng do Bộ trưởng Bộ Lao động - Thương binh và Xã hội bổ nhiệm, miễn nhiệm.
+                        Hệ thống cơ cấu tổ chức trường Đại học Lao động - Xã hội bao gồm
+                        1. Hiệu trưởng.
+                        2. Các Phó hiệu trưởng.
+                        3. Các Hội đồng.
+                        4. Các phòng ban chức năng.
+                        5. Các khoa, bộ môn trực thuộc.
+                        6. Trung tâm đào tạo bồi dưỡng cán bộ công chức, trung tâm thông tin- Thư viện và các tổ chức sự nghiệp phục vụ đào tạo và nghiên cứu khoa học.
+                        7. Các tổ chức đoàn thể.
+                        Trường có biên chế 350 người, trong đó 72 % là giảng viên, 60% giảng viên là phó giáo sư, tiến sỹ và thạc sỹ, 30% đang học nghiên cứu sinh và cao học trong và ngoài nước.
+                        45 năm qua trường đã đào tạo và bồi dưỡng được trên 30.000  cán bộ lao động – xã hội phục vụ cho ngành lao động – thương binh và xã hội và các ngành kinh tế quốc dân cho cả nước. Thành tích của trường đã được ghi nhận bằng những phần thưởng cao quí:
+                        - Huân chương lao động hạng 3 (1981)
+                        - Huân chương lao động hạng nhì (1991)
+                        - Huân chương lao động hạng nhất (1996)
+                        - Huân chương độc lập hạng ba (2001)
+                        - Huân chương độc lập hạng nhì (2006)
+                        - Huân chương độc lập hạng nhất (2011)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Phần footer -->
+    <div class="footer-ulsa">
+        <div class="footer-container d-flex">
+            <div class="footer-motto">
+                <img src="./image/logoulsa-2.png" width="387" height="175" alt="" class="img-fluid footer-logo">
+                <div class="footer-motto__title roboto-regular fs-20">
+                    "Vươn lên bằng sức mạnh Công nghệ thông tin - Khoa CNTT, Trường Đại học Lao Động Xã Hội: Nơi hình thành tương lai số!"
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h3 class="text-uppercase roboto-bold footer-contact__header">Liên hệ</h3>
+                <div class="fs-18 footer-contact__address"><b>Địa chỉ:</b> Số 43 đường Trần Duy Hưng, phường Trung Hoà, quận Cầu Giấy, Thành Phố Hà Nội</div>
+                <div class="fs-18 footer-contact__phone"><b>Số điện thoại</b> (084) 268 7686</div>
+                <div class="fs-18 footer-contact__email"><b>Email</b> Bomoncntt2@gmail.com</div>
+                <div class="fs-18 footer-contact__working-hours mb-5"><b>Giờ làm việc</b> Thứ 2 - Thứ 6 (8-16h)</div>
+                <div class="footer-contact__list-icon d-flex align-items-center">
+                    <div class="footer-contact__item-icon">
+                        <img src="./image/fb.png" width="35" height="35" alt="" class="img-fluid footer-contact__image-icon">
+                    </div>
+                    <div class="footer-contact__item-icon">
+                        <img src="./image/enevelop.png" width="35" height="35" alt="" class="img-fluid footer-contact__image-icon">
+                    </div>
+                    <div class="footer-contact__item-icon">
+                        <img src="./image/phone.png" width="35" height="35" alt="" class="img-fluid footer-contact__image-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
